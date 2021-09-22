@@ -13,30 +13,39 @@ most-active-cookie is a Python script that determines the most active cookie in 
 
 ## Usage
 
+### Running the script
 To run the script, open a terminal window in the repo and run the following:
 
-(MacOS and Linux)
+**MacOS and Linux**
 ```sh
 ./most_active_cookie [FILENAME] -d [DATE]
 ```
 
-(Windows)
+**Windows**
 ```sh
 python3 most_active_cookie [FILENAME] -d [DATE]
 ```
 
 The filename must be a CSV file (include the extension), and the date must be formatted in YYYY-MM-DD.
 
+### Running the test file
+To run the test file, open a terminal window in the repo and run the following
+
+**Works for Windows, MacOS, and Linux**
+```sh
+python3 test_most_active_cookie.py
+```
+
 ### Example
 
 Running the following would find the most active cookie in "cookie_log.csv" on 2018-12-09
 
-(MacOS and Linux)
+**MacOS and Linux**
 ```sh
 ./most_active_cookie cookie_log.csv -d 2018-12-09
 ```
 
-(Windows)
+**Windows**
 ```sh
 python3 most_active_cookie cookie_log.csv -d 2018-12-09
 ```
