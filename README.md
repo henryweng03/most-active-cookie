@@ -1,5 +1,5 @@
 # most-active-cookie
-most-active-cookie is a Python script that determines the most active cookie in a given day from a cookie log sorted by day
+most-active-cookie is a Python script that determines the most active cookie in a given day from a sorted cookie log
 
 ## Installation and Setup
 1) Clone the repo
