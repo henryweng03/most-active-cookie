@@ -14,7 +14,7 @@ python3 most_active_cookie.py [FILENAME] -d [DATE]
 ```
 The filename must be a CSV file (include the extension), and the date must be formatted in YYYY-MM-DD.
 
-**Example**
+### Example
 
 Running the following would find the most active cookie in "cookie_log.csv" on 2018-12-09
 ```sh
