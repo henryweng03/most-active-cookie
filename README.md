@@ -13,8 +13,9 @@ To run the script, open a terminal window in the repo and run
 python3 most_active_cookie.py [FILENAME] -d [DATE]
 ```
 The filename must be a CSV file (include the extension), and the date must be formatted in YYYY-MM-DD.
-For example, running
+
+**Example**
+Running the following would find the most active cookie in "cookie_log.csv" on 2018-12-09
 ```sh
 python3 most_active_cookie.py cookie_log.csv -d 2018-12-09
 ```
-would find the most active cookie in "cookie_log.csv" on 2018-12-09
