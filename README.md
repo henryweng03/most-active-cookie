@@ -1,12 +1,15 @@
 # most-active-cookie
 most-active-cookie is a Python script that determines the most active cookie in a given day from a cookie log sorted by day
 
-## Installation
+## Installation and Setup
 1) Clone the repo
-```sh
-git clone git@github.com:henryweng03/most-active-cookie.git
-```
-
+  ```sh
+  git clone git@github.com:henryweng03/most-active-cookie.git
+  ```
+2) Open a terminal window in the repo and run
+  ```sh
+  chmod +x most_active_cookie
+  ```
 
 ## Usage
 To run the script, open a terminal window in the repo and run
